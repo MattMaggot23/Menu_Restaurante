@@ -1,0 +1,54 @@
+print("--------------Bem vindo ao Mata fome-----------------")
+print(" 1 - Pratos\n 2 - Bebidas\n 3 - Sobremesas\n 0 - Sair")
+
+opcao = input("Escolha uma opção ") 
+
+if opcao == '1':
+    print(" 1. Baiana\n 2. Tropeiro\n 3. Macarrão\n 0. Voltar ao menu anterior")
+    prato_opcao = input("Escolha um Prato ")
+    if prato_opcao == '1':
+        print('Voce escolheu baiana')
+    elif prato_opcao == '2':
+        print('Voce escolheu tropeiro')
+    elif prato_opcao == '3':
+        print('Você escolheu Macarrão')
+    elif prato_opcao == '0':
+        print('voltar ao menu anterior')
+    else:
+        print('Opção inválida')
+
+elif opcao == '2':
+    print(" 1. Refrigerante\n 2. Suco\n 3. Chá\n 4. Cerveja\n 0. Voltar ao menu anterior")
+    bebida_opcao = input('Escolha uma bebida ')
+    if bebida_opcao == '1':
+        print('Voce escolheu refrigerante')
+    elif bebida_opcao == '2':
+        print('Voce escolheu sucos')
+    elif bebida_opcao == '3':
+        print('voce escolheu chás')
+    elif bebida_opcao == '4':
+        print('Voce escolheu cerveja')
+    elif bebida_opcao == '0':
+        print('Voltar ao menu anterior')
+    else:
+        print('Opção Inválida')
+    
+
+elif opcao == '3':
+    print(" 1. sorvetes\n 2. Doces\n 3. rapadura\n 0. Voltar ao Menu anterior")
+    sobremesa_opcao = input('Escolha uma sobremesa ')
+    if sobremesa_opcao == '1':
+        print('voce escolheu sorvete')
+    elif sobremesa_opcao == '2':
+        print('voce escolheu doces')
+    elif sobremesa_opcao == '3':
+        print('voce escolheu rapadura')
+    elif sobremesa_opcao == '0':
+        print('Voltar ao menu anterior')
+    else:
+        ("Opção Inválida")
+
+elif opcao == '0':
+    print('Obrigado e volte sempre')
+else:
+    print("Opção Invalida")
